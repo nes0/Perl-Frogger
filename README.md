@@ -50,3 +50,16 @@ Use 'W', 'A', 'S' and 'D' keys to move the frog.
     --    --    -└─┘  --    -- └─┘--    --   └─┘    --    --
     ............................00..........................
     ............................/\..........................
+
+
+# Running
+
+You will need Perl and the Perl Readkey and Curses libraries to run Frogger.
+If running on Debian / Ubuntu, etc. install them using apt.
+
+    sudo apt install libterm-readkey-perl libcurses-perl
+
+Or using CPAN
+
+    cpan Term::ReadKey
+    cpan Curses::Window
