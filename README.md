@@ -1,0 +1,22 @@
+# Frogger in Perl
+
+    .___                    
+    [__ ._. _  _  _  _ ._.
+    |   [  (_)(_](_](/,[  
+              ._|._|      
+
+This perl script effects a passable, playable version of the classic "Frogger"
+arcade game.
+
+## Playing
+
+Your goal is to move frogs from the bottom of the map to fill the home
+positions at the top of the map, avoiding the obstacles en-route.
+
+You have only 60 seconds to get each frog to the safety of home. Each home
+can only accommodate a single frog.
+
+Points are awarded for each frog saved. The quicker you navigate the map,
+the more points you win.
+
+Use 'W', 'A', 'S' and 'D' keys to move the frog.
